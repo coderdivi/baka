@@ -1,0 +1,96 @@
+html,
+body{
+    overflow: scroll;
+    height: 100%;
+    width: 100%;
+}
+/* Split the screen in half */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    background-color: #fff7ec;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    background-color: #fddbaa;
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  /* Style the image inside the centered container, if needed */
+  .centered img {
+    width: 400px;
+    height: 500px;
+  }
+  /* font styling */
+  h2{
+	font-family: 'Fjalla One', sans-serif;
+	color: black;
+	text-align: center;
+
+}
+p{
+	font-family: 'Gloria Hallelujah', cursive;
+	color: red;
+	text-align: center;
+	line-height: 60px
+}
+h6{
+	font-family: 'Fjalla One', sans-serif;
+	color: black;
+	text-align: center;
+	line-height: 40px;
+	background-color: white;
+	width: 500px;
+	margin: auto;
+	align-items: center;
+    transform: translateY(-10%);
+    border: 5px solid #ebd1ad;
+}
+.container{
+	position: relative;
+}    
+.top-center{
+	align-items: center;
+    transform: translateY(-30%);
+}
+.btn{
+
+	border-radius: 3px;
+	font-family: 'Poiret One', cursive;
+	width: 300px;
+} 
+.btn-primary{
+	background-color: #F05F44;
+	border-color: #F05F44;
+}
+.btn-primary:hover{
+	background-color: red;
+	cursor: pointer;
+	border-color: white;
+}
+.padding{
+	position: relative;
+    text-align: center;
+    transform: translateY(150%)
+}
+
