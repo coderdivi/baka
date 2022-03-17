@@ -1,6 +1,6 @@
 html,
 body{
-    height: 100vh;
+    height: 100%;
     width: 100%;
 }
 /* Split the screen in half */
@@ -59,7 +59,7 @@ h6{
 	width: 500px;
 	margin: auto;
 	align-items: center;
-  transform: translateY(40%);
+  transform: translateY(3%);
   border: 5px solid #ebd1ad;
 
 }   
@@ -88,7 +88,8 @@ h6{
 .padding{
 	position: relative;
   text-align: center;
-  transform: translateY(500%)
+  transform: translateY(200%);
+  margin-bottom: 3px;
 }
 @media screen and (min-width: 760px) and (max-width:992px) {
   .split{
